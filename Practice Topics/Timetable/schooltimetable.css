@@ -11,6 +11,7 @@ table,th,td{
 
 td{
     padding: 10px;
+    font-weight: 400;
 }
 th{
     height: 60px;
@@ -19,5 +20,5 @@ th{
     font-weight: 100;
 }
 td:nth-child(odd){
-    background-color: rgba(246, 121, 121, 0.826);
+    background-color: lightgoldenrodyellow;
 }
