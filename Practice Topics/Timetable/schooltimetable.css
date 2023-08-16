@@ -1,0 +1,23 @@
+table{
+    width: 100%;
+    background-color: azure;
+}
+table,th,td{
+    border: 1px solid lightslategray;
+    border-collapse: collapse;
+    text-align: center;
+    font-family:Tsukimi Rounded;
+}
+
+td{
+    padding: 10px;
+}
+th{
+    height: 60px;
+    color: yellow;
+    background-color: black;
+    font-weight: 100;
+}
+td:nth-child(odd){
+    background-color: rgba(246, 121, 121, 0.826);
+}
