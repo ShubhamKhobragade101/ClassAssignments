@@ -1,0 +1,43 @@
+body {
+    font-size: 11pt;
+    color: #404040;
+    font-family:  Georgia, Garamond;
+}
+
+.h2heading {
+    color: #A4A400;
+    background-color: #F0F0F0;
+    font:22pt bold;
+    font-family: Lucida Sans Unicode, Helvetica, Arial;
+    text-decoration: underline;
+    text-align: center;
+}
+
+h3 {
+    color: #A4A400;
+    background-color: #F0F0F0 ;
+    font-family: Lucida Sans Unicode, Helvetica, Arial;
+    font: 18pt normal;
+    text-decoration: underline;
+}
+
+
+abbr{
+    
+    text-decoration:underline;
+}
+
+.reviews{
+    background-color: #FFFFA8;
+    font-style: italic;
+}
+
+
+a{
+    color: #A4A400;
+}
+
+.copyright{
+    font-family: monospace;
+}
+
