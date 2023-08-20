@@ -1,43 +1,55 @@
+
 body {
-    font-size: 11pt;
-    color: #404040;
-    font-family:  Georgia, Garamond;
+  font-size: 11pt;
+  color: #404040;
+  font-family: Georgia, Garamond;
+  background-color: lightgoldenrodyellow;
 }
 
 .h2heading {
-    color: #A4A400;
-    background-color: #F0F0F0;
-    font:22pt bold;
-    font-family: Lucida Sans Unicode, Helvetica, Arial;
-    text-decoration: underline;
-    text-align: center;
+  color: #a4a400;
+  background-color: #f0f0f0;
+  font-size: 22pt;
+  font-weight: bold;
+  font-family: "Lucida Sans Unicode", Helvetica, Arial;
+  text-decoration: underline;
+  text-align: center;
+  letter-spacing: 0.25cm;
 }
 
-h3 {
-    color: #A4A400;
-    background-color: #F0F0F0 ;
-    font-family: Lucida Sans Unicode, Helvetica, Arial;
-    font: 18pt normal;
-    text-decoration: underline;
+.h3headings {
+  color: #a4a400;
+  background-color: #f0f0f0;
+  font-family: "Lucida Sans Unicode", Helvetica, Arial;
+  font-size: 18pt;
+  font-weight: 400;
+  text-decoration: underline;
+  letter-spacing: 0.25cm;
 }
 
-
-abbr{
-    
-    text-decoration:underline;
+.overview,
+.ingredients,
+.directions {
+  border-bottom: 2px solid rgb(78, 17, 78);
 }
 
-.reviews{
-    background-color: #FFFFA8;
-    font-style: italic;
+.reviews {
+  margin-bottom: 20px;
 }
 
-
-a{
-    color: #A4A400;
+abbr {
+  text-decoration: underline;
 }
 
-.copyright{
-    font-family: monospace;
+.reviews {
+  background-color: #ffffa8;
+  font-style: italic;
 }
 
+a {
+  color: #a4a400;
+}
+
+.copyright {
+  font-family: monospace;
+}
