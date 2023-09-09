@@ -1,0 +1,10 @@
+body{
+    background-color: #E35869;
+}
+
+.formcontainer {
+    margin: 200px 500px ;
+    padding: 10px;
+    width: 30%;
+    background-color: #FFFFFF;
+}
