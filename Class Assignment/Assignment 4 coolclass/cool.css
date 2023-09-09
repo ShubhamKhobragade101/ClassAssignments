@@ -1,9 +1,26 @@
 *{
-    margin: 0;
-    padding: 0;
+    background-color: #fadadd;
     font-family: Arial;
     font-size: 14;
     color: #000080;
-    background-color: #fadadd;
+}
 
+.headingh1, .headingh2, .hot {
+    font-family: arial black, arial;
+    letter-spacing: 3px;
+    text-decoration: overline underline;
+}
+
+.headingh1{
+    text-align: center;
+    text-transform:uppercase;
+}
+
+.hot{
+    
+}
+
+hr {
+  background-color: red;
+  border: none;
 }
