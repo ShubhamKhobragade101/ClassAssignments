@@ -1,10 +1,71 @@
-body{
-    background-color: #E35869;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.fullpage-as-a-container {
+  border: 1px solid yellow;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e35869;
 }
 
 .formcontainer {
-    margin: 200px 500px ;
-    padding: 10px;
-    width: 30%;
-    background-color: #FFFFFF;
+  box-sizing: border-box;
+  padding: 30px;
+  width: 350px;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+  background-color: #ffffff;
+}
+
+h2 {
+  padding-bottom: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+.textarea {
+ margin-top: 20px;
+  border: 1px solid #777576;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #777576;
+  padding-bottom: 5px;
+  font-size: 10px;
+  font-family: "Roboto", sans-serif;
+}
+
+.forgot-pass-link {
+  margin-left: 70px;
+  color: #777576;
+  font-size: 10px;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+}
+
+.buttoncontainer {
+  display: flex;
+  width: 350px;
+}
+.registration-button,
+.signin-button {
+  font-size: 10px;
+  width: 50%;
+  height: 50px;
+  border: none;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+.registration-button {
+  color: #777576;
+  background-color: #e8e9ec;
+}
+.signin-button {
+  color: #ffffff;
+  background-color: #2d3b55;
 }

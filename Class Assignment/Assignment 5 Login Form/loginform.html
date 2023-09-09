@@ -1,27 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login Page</title>
-    <link rel="stylesheet" href="loginform.css">
+    <link rel="stylesheet" href="loginform.css" />
 </head>
+
 <body>
 
-    <div class="formcontainer">
-        <form >
-            <h2>Login</h2>
-            <input type="text" placeholder="EMAIL"><br>
-            <br>       
-            <input type="text" placeholder="PASSWORD"><br>
-            <br>
-            <a href="#">FORGOT YOUR PASSWORD?</a><br>
-            <br>
-            <input type="submit" value="REGISTER">
-            <input type="submit" value="SIGN IN">
+    <div class="fullpage-as-a-container">
 
-        </form>
+            <div class="formcontainer">
+                <form>
+                    <h2>Login</h2>
+                    <input class="textarea" type="text" placeholder="EMAIL" size="54"/><br />
+                    <br />
+                    <input class="textarea"  type="text" placeholder="PASSWORD" size="54"/><br />
+                    <br />
+                    <a  class="forgot-pass-link" href="#">FORGOT YOUR PASSWORD?</a><br />
+                </form>
+            </div>
+
+            <div class="buttoncontainer">
+                <button class="registration-button">REGISTER</button>
+                <button class="signin-button">SIGN IN</button>
+            </div>
+
     </div>
-    
 </body>
+
 </html>
