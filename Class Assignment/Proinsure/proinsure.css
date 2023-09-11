@@ -3,48 +3,7 @@
     padding: 0;
 }
 body{
-    height: 2000px;
-}
-.header{
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: row;
-    padding:0px 32px ;
-    margin: 16px 141.797px;
-}
-.proinsure{
-    display: flex;
-    color: #2D2640;
-    font-size: 36px;
-    font-family: 'DM Serif Display', serif;
-    width: 300px;
-    align-items: center;
-    justify-content: start;
-}
-.nav-bar-links{
-    display: flex;
-    box-sizing: border-box;
-    width: 500px;
-    flex-direction: row;
-    flex: 1;
-    align-items:center;
-    justify-content: end;
-    padding-left: 32px;
-}
-.home-link, .about-link, .contact-link, .view-plans{
-    font-size: 20px;
-    font-family: 'Karla', sans-serif;
-    font-weight: 600;
-    margin-left: 42px;
-    color: #6e6b74;
-    text-decoration: none;
-}
- .view-plans {
-    box-sizing: border-box;
-    border: 1px solid #6e6b74;
-    border-radius: 2px;
-    padding:15px 18px;
-    
+    height: 2390px;
 }
 
 .main-body1{
@@ -68,7 +27,7 @@ body{
     color: #bcb8c4;
     font-family: 'Karla', sans-serif;
     font-size: 18px;
-    margin: 20px 0px;
+    margin: 35px 0px;
     width:500px ;
     line-height: 1.5;
 }
