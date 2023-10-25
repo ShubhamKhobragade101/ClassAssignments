@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexboxpractice</title>
+
+    <style>
+        body{
+            display: flex;
+            padding-left: 15px;
+        }
+        .main-container{
+            display: flex;
+            flex-direction: column;
+            box-sizing: border-box;
+            width: 200px;
+            box-shadow: 2px 2px 7px black;
+            margin-right: 20px;
+        }
+        .heading-div{
+            font-size: 20px;
+            font-weight:600;
+            padding: 5px 10px;
+        }
+        .para-div{
+            padding: 5px 10px;
+            
+        }
+        .btn-div{
+            padding: 5px 10px;
+            text-align: center;
+            align-self: center;
+            margin: 6px;
+
+        }
+        .button{
+            padding: 5px;
+            width: 178px;
+            height: 34px;
+            background-color: grey;
+            border: none;
+        }
+        .btn-link{
+            text-decoration: none;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <div class="image-div">
+            <img src="image.jpg" width="200px" height="180px" alt="starry sky">
+        </div>
+        <div class="heading-div">
+            <p>Seamlessly visualize quality</p>
+        </div>
+        <div class="para-div">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, exercitationem.</p>
+        </div>
+        <div class="btn-div">
+            <button class="button"> <a class="btn-link" href="#">Here's Why</a>  </button>
+        </div>
+    </div>
+
+    <div class="main-container">
+        <div class="image-div">
+            <img src="image.jpg" width="200px" height="180px" alt="starry sky">
+        </div>
+        <div class="heading-div">
+            <p>Completely Synergize</p>
+        </div>
+        <div class="para-div">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, fuga cupiditate? Odit dolorem dignissimos aperiam vero. Adipisci culpa nulla alias!</p>
+        </div>
+        <div class="btn-div">
+            <button class="button"> <a class="btn-link" href="#">Here's Why</a>  </button>
+        </div>
+    </div>
+
+    <div class="main-container">
+        <div class="image-div">
+            <img src="image.jpg" width="200px" height="180px" alt="starry sky">
+        </div>
+        <div class="heading-div">
+            <p>Dynamically Procastrinate</p>
+        </div>
+        <div class="para-div">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, exercitationem.</p>
+        </div>
+        <div class="btn-div">
+            <button class="button"> <a class="btn-link" href="#">Here's Why</a>  </button>
+        </div>
+    </div>
+</body>
+</html>
