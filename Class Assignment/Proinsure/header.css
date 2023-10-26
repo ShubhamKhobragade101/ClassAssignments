@@ -1,0 +1,53 @@
+/*this page contains the css of Proinsure Heading Container*/ 
+
+.header{
+    display: flex; 
+    position: fixed; 
+    box-sizing: border-box;
+    flex-direction: row;
+    z-index: 999;
+    width: 100%;
+    height: 90px;
+    background-color: white;
+}
+.proinsure{
+    display: flex;
+    color: #2D2640;
+    font-size: 36px;
+    font-family: 'DM Serif Display', serif;
+    width: 300px;
+    align-items: center;
+    justify-content: start;
+    margin-left:170.797px
+}
+.nav-bar-links{
+    display: flex;
+    width: 500px;
+    flex-direction: row;
+    flex: 1;
+    align-items:center;
+    justify-content: end;
+    padding-left: 32px;
+    margin-right: 170.797px
+}
+.home-link, .about-link, .contact-link, .view-plans{
+    font-size: 20px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 600;
+    margin-left: 42px;
+    color: #6e6b74;
+    text-decoration: none;
+}
+ .view-plans {
+    box-sizing: border-box;
+    border: 1px solid #6e6b74;
+    border-radius: 2px;
+    padding:15px 18px;
+}
+.home-link:hover,.contact-link:hover,.about-link:hover{
+    color: #2D2640;
+}
+.view-plans:hover{
+    background-color: #2D2640;
+    color: white;
+}
