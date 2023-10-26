@@ -29,6 +29,7 @@
     justify-content: end;
     padding-left: 32px;
     margin-right: 170.797px
+    cursor: pointer;
 }
 .home-link, .about-link, .contact-link, .view-plans{
     font-size: 20px;
@@ -43,6 +44,7 @@
     border: 1px solid #6e6b74;
     border-radius: 2px;
     padding:15px 18px;
+    cursor: pointer;
 }
 .home-link:hover,.contact-link:hover,.about-link:hover{
     color: #2D2640;
